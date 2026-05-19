@@ -196,23 +196,23 @@ The results show a clear pattern: comments mentioning `black` (mean toxicity 0.3
 
 == Counterfactual Experiment Results
 
-We scored all 117 counterfactual sentences with both models. @fig-neutral-comparison shows the scores for the neutral template "I talked to a [identity] person today," which isolates the identity term from any baseline negativity. A fair model should return near-identical scores across all identity terms for this template.
+We scored all 117 counterfactual sentences with both models. @fig-neutral-comparison shows mean scores across all three neutral templates for each of the 13 identity terms. A fair model should return near-identical scores across all identity terms.
 
 #figure(
   image("fig_neutral_comparison.png", width: 100%),
-  caption: [Toxicity scores for the neutral template "I talked to a [identity] person today," comparing the local Ridge model and the Perspective API across 10 identity terms.],
+  caption: [Mean toxicity scores across neutral templates, comparing the local Ridge model and the Perspective API across all 13 identity terms.],
 ) <fig-neutral-comparison>
 
-Both models assign notably higher scores to sentences with `black` and `white` compared to `man`, `woman`, or `christian`. The Ridge model shows a wider spread: `black` scores 0.317 while `christian` scores only 0.105, a difference of 0.21 on a fully neutral sentence. The Perspective API shows a more compressed range but still assigns `black` (0.269) more than five times the score of `man` (0.041).
+Both models assign the highest neutral scores to `gay` and `black`, and the lowest to `woman` and `christian`. The Ridge model shows the larger spread: `gay` averages 0.500 while `straight` averages only 0.061, a difference of 0.44 on fully neutral sentences. The Perspective API is more compressed but still shows a range of 0.195, with `gay` (0.236) scoring nearly six times higher than `woman` (0.041).
 
-@fig-categories breaks this down by identity category. Within religion, the Ridge model's spread between `muslim` (0.286) and `christian` (0.105) is 0.181, while the Perspective API's equivalent spread is only 0.043. Within race, both models show a larger range driven primarily by `black` scoring substantially above `asian` and `latino`.
+@fig-categories breaks this down by identity category. Within religion, the Ridge model's spread between `muslim` (0.284) and `christian` (0.129) is 0.156, while the Perspective API's spread is 0.098, driven primarily by `jewish` (0.143) at the high end. Within race, both models show a larger range: Ridge spans 0.340 from `black` (0.418) to `asian` (0.078), and the API spans 0.138 from `black` (0.221) to `latino` (0.084). The sexuality category shows the largest Ridge range overall at 0.439, with `gay` scoring nearly eight times higher than `straight` on neutral templates, while the API gap is much smaller at 0.064.
 
 #figure(
   image("fig_category_comparison.png", width: 100%),
-  caption: [Neutral template scores broken down by identity category (religion, race, gender). Score range within each category is annotated for both models.],
+  caption: [Neutral template scores broken down by identity category (religion, race, gender, sexuality). Score range within each category is annotated for both models.],
 ) <fig-categories>
 
-@fig-local-grouped and @fig-api-grouped show the full results across all three template levels. Scores rise substantially at the charged level for both models. Importantly, the relative ordering of identity groups is largely preserved across levels: groups that score higher on neutral templates also score higher on charged ones. This suggests that the bias compounds with baseline negativity rather than flattening out, which is consistent with our second hypothesis.
+@fig-local-grouped and @fig-api-grouped show the full results across all three template levels. Scores rise substantially at the charged level for both models. For the Perspective API, the score range across identity terms grows from 0.195 on neutral templates to 0.387 on charged ones, with `black` reaching 0.579 and `man` at 0.192 at the charged level. Importantly, the relative ordering of identity groups is largely preserved across levels: groups that score higher on neutral templates also score higher on charged ones. This suggests that the bias compounds with baseline negativity rather than flattening out, which is consistent with our second hypothesis.
 
 #figure(
   image("fig_local_model_grouped.png", width: 100%),
@@ -259,7 +259,7 @@ There is also a question of accountability. The Perspective API is a black-box s
 
 In this project we audited Google's Perspective API for identity-based bias using a counterfactual fairness approach. By constructing controlled sentence templates and varying only the identity term across 117 sentences, we isolated the model's response to group membership rather than content. Both the Perspective API and our local Ridge Regression model assigned meaningfully different toxicity scores to neutral sentences based solely on which identity group was mentioned, confirming the first hypothesis.
 
-The Ridge model showed a larger overall spread than the Perspective API, particularly within religion, where the gap between `muslim` and `christian` in neutral sentences reached 0.18. The Perspective API showed a more compressed range but was not uniformly more fair: within race, the gap between `black` and `asian` remained substantial in both models. The relative ordering of identity groups was consistent across all three template levels, with biases compounding rather than disappearing in more charged sentences. This is consistent with the second hypothesis.
+The Ridge model showed a larger overall spread than the Perspective API across all identity categories. The largest gap appeared in the sexuality category, where `gay` scored 0.439 above `straight` in the Ridge model on neutral templates. The Perspective API showed a more compressed range but was not uniformly more fair: within race, the gap between `black` and `asian` remained 0.138 for the API and 0.340 for the Ridge model. The score range across identity terms grew from 0.195 at the neutral level to 0.387 at the charged level for the Perspective API, with the relative ordering of groups preserved throughout. This is consistent with the second hypothesis.
 
 The two models showed broadly similar bias patterns, suggesting that the source of bias lies primarily in the training data rather than in the Perspective API's additional processing. The Ridge model weight inspection supports this directly: several identity terms carry positive coefficients that inflate scores regardless of context.
 
