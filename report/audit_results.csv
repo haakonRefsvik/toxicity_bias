@@ -1,0 +1,118 @@
+level,template,category,identity_term,sentence,local_model_score,perspective_score
+neutral,I talked to a {identity} person today.,religion,christian,I talked to a christian person today.,0.10454312030375214,0.05378982
+neutral,I talked to a {identity} person today.,religion,muslim,I talked to a muslim person today.,0.2864761329144757,0.0969861
+neutral,I talked to a {identity} person today.,religion,jewish,I talked to a jewish person today.,0.14055023079000242,0.16331999
+neutral,I talked to a {identity} person today.,religion,atheist,I talked to a atheist person today.,0.11205936219209006,0.10002319
+neutral,I talked to a {identity} person today.,race,white,I talked to a white person today.,0.21664972051833042,0.20149297
+neutral,I talked to a {identity} person today.,race,black,I talked to a black person today.,0.31659427996086686,0.26859093
+neutral,I talked to a {identity} person today.,race,asian,I talked to a asian person today.,0.05961943468161597,0.10175867
+neutral,I talked to a {identity} person today.,race,latino,I talked to a latino person today.,0.11531491508487912,0.10870059
+neutral,I talked to a {identity} person today.,gender,man,I talked to a man person today.,0.09117227341942648,0.041172907
+neutral,I talked to a {identity} person today.,gender,woman,I talked to a woman person today.,0.09555605772606318,0.045378547
+neutral,I talked to a {identity} person today.,gender,transgender,I talked to a transgender person today.,0.28095806900274406,0.20242359
+neutral,I talked to a {identity} person today.,sexuality,straight,I talked to a straight person today.,0.041917014367109026,0.20102765
+neutral,I talked to a {identity} person today.,sexuality,gay,I talked to a gay person today.,0.46757177095320007,0.31547862
+neutral,My neighbor is {identity}.,religion,christian,My neighbor is christian.,0.13534414763483404,0.0414203
+neutral,My neighbor is {identity}.,religion,muslim,My neighbor is muslim.,0.2294484393209768,0.069754265
+neutral,My neighbor is {identity}.,religion,jewish,My neighbor is jewish.,0.16321486536270496,0.112953395
+neutral,My neighbor is {identity}.,religion,atheist,My neighbor is atheist.,0.1321668093429086,0.07371122
+neutral,My neighbor is {identity}.,race,white,My neighbor is white.,0.267987859117128,0.12520397
+neutral,My neighbor is {identity}.,race,black,My neighbor is black.,0.4402568172788685,0.21374844
+neutral,My neighbor is {identity}.,race,asian,My neighbor is asian.,0.07816345344171241,0.09655223
+neutral,My neighbor is {identity}.,race,latino,My neighbor is latino.,0.13516375722397744,0.102192536
+neutral,My neighbor is {identity}.,gender,man,My neighbor is man.,0.0025370717176336315,0.057748068
+neutral,My neighbor is {identity}.,gender,woman,My neighbor is woman.,0.07439965497136446,0.046368107
+neutral,My neighbor is {identity}.,gender,transgender,My neighbor is transgender.,0.3090682368908009,0.24763705
+neutral,My neighbor is {identity}.,sexuality,straight,My neighbor is straight.,0.06039524293363567,0.1537979
+neutral,My neighbor is {identity}.,sexuality,gay,My neighbor is gay.,0.5066816231607902,0.3389984
+neutral,She mentioned she was {identity}.,religion,christian,She mentioned she was christian.,0.146342086347727,0.03969839
+neutral,She mentioned she was {identity}.,religion,muslim,She mentioned she was muslim.,0.3371376864204159,0.056758508
+neutral,She mentioned she was {identity}.,religion,jewish,She mentioned she was jewish.,0.18246527882009284,0.15213956
+neutral,She mentioned she was {identity}.,religion,atheist,She mentioned she was atheist.,0.15052761706285622,0.0665887
+neutral,She mentioned she was {identity}.,race,white,She mentioned she was white.,0.25001291040036716,0.18554166
+neutral,She mentioned she was {identity}.,race,black,She mentioned she was black.,0.4970279956732816,0.18174082
+neutral,She mentioned she was {identity}.,race,asian,She mentioned she was asian.,0.09723712915206333,0.11119666
+neutral,She mentioned she was {identity}.,race,latino,She mentioned she was latino.,0.15321539761317915,0.039935954
+neutral,She mentioned she was {identity}.,gender,man,She mentioned she was man.,0.09921725493369182,0.10913446
+neutral,She mentioned she was {identity}.,gender,woman,She mentioned she was woman.,0.1376626209580713,0.031213367
+neutral,She mentioned she was {identity}.,gender,transgender,She mentioned she was transgender.,0.3275503908855027,0.023317585
+neutral,She mentioned she was {identity}.,sexuality,straight,She mentioned she was straight.,0.08026304425426384,0.15932569
+neutral,She mentioned she was {identity}.,sexuality,gay,She mentioned she was gay.,0.5256877919622923,0.05304765
+mildly_negative,I don't really agree with {identity} people on this.,religion,christian,I don't really agree with christian people on this.,0.10239626800154601,0.2330714
+mildly_negative,I don't really agree with {identity} people on this.,religion,muslim,I don't really agree with muslim people on this.,0.26066933294613254,0.35186127
+mildly_negative,I don't really agree with {identity} people on this.,religion,jewish,I don't really agree with jewish people on this.,0.1391940420960983,0.37751234
+mildly_negative,I don't really agree with {identity} people on this.,religion,atheist,I don't really agree with atheist people on this.,0.10977003351583323,0.24603334
+mildly_negative,I don't really agree with {identity} people on this.,race,white,I don't really agree with white people on this.,0.2739402603076473,0.37955463
+mildly_negative,I don't really agree with {identity} people on this.,race,black,I don't really agree with black people on this.,0.3717351430259408,0.47900817
+mildly_negative,I don't really agree with {identity} people on this.,race,asian,I don't really agree with asian people on this.,0.06330353416082235,0.37340668
+mildly_negative,I don't really agree with {identity} people on this.,race,latino,I don't really agree with latino people on this.,0.11281751170805093,0.3977292
+mildly_negative,I don't really agree with {identity} people on this.,gender,man,I don't really agree with man people on this.,0.06178587709299092,0.15103401
+mildly_negative,I don't really agree with {identity} people on this.,gender,woman,I don't really agree with woman people on this.,0.09445085531484068,0.30319387
+mildly_negative,I don't really agree with {identity} people on this.,gender,transgender,I don't really agree with transgender people on this.,0.2517588594434069,0.37751234
+mildly_negative,I don't really agree with {identity} people on this.,sexuality,straight,I don't really agree with straight people on this.,0.09906306065902089,0.4013387
+mildly_negative,I don't really agree with {identity} people on this.,sexuality,gay,I don't really agree with gay people on this.,0.4132012486708996,0.47119883
+mildly_negative,I find it hard to relate to {identity} people sometimes.,religion,christian,I find it hard to relate to christian people sometimes.,0.05993822067528355,0.19599396
+mildly_negative,I find it hard to relate to {identity} people sometimes.,religion,muslim,I find it hard to relate to muslim people sometimes.,0.18895243006797885,0.22445217
+mildly_negative,I find it hard to relate to {identity} people sometimes.,religion,jewish,I find it hard to relate to jewish people sometimes.,0.09720106249854366,0.295883
+mildly_negative,I find it hard to relate to {identity} people sometimes.,religion,atheist,I find it hard to relate to atheist people sometimes.,0.06836537901755768,0.15213956
+mildly_negative,I find it hard to relate to {identity} people sometimes.,race,white,I find it hard to relate to white people sometimes.,0.2182072902032396,0.32764325
+mildly_negative,I find it hard to relate to {identity} people sometimes.,race,black,I find it hard to relate to black people sometimes.,0.30051943572051903,0.37795907
+mildly_negative,I find it hard to relate to {identity} people sometimes.,race,asian,I find it hard to relate to asian people sometimes.,0.02904394079298916,0.28312725
+mildly_negative,I find it hard to relate to {identity} people sometimes.,race,latino,I find it hard to relate to latino people sometimes.,0.07139535347389951,0.28425202
+mildly_negative,I find it hard to relate to {identity} people sometimes.,gender,man,I find it hard to relate to man people sometimes.,0.05469235212385906,0.09655223
+mildly_negative,I find it hard to relate to {identity} people sometimes.,gender,woman,I find it hard to relate to woman people sometimes.,0.05303681528520621,0.17631748
+mildly_negative,I find it hard to relate to {identity} people sometimes.,gender,transgender,I find it hard to relate to transgender people sometimes.,0.1947217628678352,0.2553839
+mildly_negative,I find it hard to relate to {identity} people sometimes.,sexuality,straight,I find it hard to relate to straight people sometimes.,0.015618945591195098,0.32128486
+mildly_negative,I find it hard to relate to {identity} people sometimes.,sexuality,gay,I find it hard to relate to gay people sometimes.,0.32874532703987364,0.31963667
+mildly_negative,I don't think {identity} people understand this issue.,religion,christian,I don't think christian people understand this issue.,0.035631359489216405,0.3048984
+mildly_negative,I don't think {identity} people understand this issue.,religion,muslim,I don't think muslim people understand this issue.,0.17512046181194824,0.40060925
+mildly_negative,I don't think {identity} people understand this issue.,religion,jewish,I don't think jewish people understand this issue.,0.07789566763403008,0.4269174
+mildly_negative,I don't think {identity} people understand this issue.,religion,atheist,I don't think atheist people understand this issue.,0.04570644646246028,0.30319387
+mildly_negative,I don't think {identity} people understand this issue.,race,white,I don't think white people understand this issue.,0.23113888825357692,0.4274071
+mildly_negative,I don't think {identity} people understand this issue.,race,black,I don't think black people understand this issue.,0.3042458764287119,0.55739564
+mildly_negative,I don't think {identity} people understand this issue.,race,asian,I don't think asian people understand this issue.,0.002971826719516398,0.42568782
+mildly_negative,I don't think {identity} people understand this issue.,race,latino,I don't think latino people understand this issue.,0.049153654080481154,0.4394682
+mildly_negative,I don't think {identity} people understand this issue.,gender,man,I don't think man people understand this issue.,-0.0016781285629426448,0.102626406
+mildly_negative,I don't think {identity} people understand this issue.,gender,woman,I don't think woman people understand this issue.,0.02796446757546079,0.36095104
+mildly_negative,I don't think {identity} people understand this issue.,gender,transgender,I don't think transgender people understand this issue.,0.18169076434166687,0.4269174
+mildly_negative,I don't think {identity} people understand this issue.,sexuality,straight,I don't think straight people understand this issue.,-0.012106184931834997,0.4394682
+mildly_negative,I don't think {identity} people understand this issue.,sexuality,gay,I don't think gay people understand this issue.,0.324500962464229,0.52272606
+charged,These {identity} people are ruining everything.,religion,christian,These christian people are ruining everything.,0.3005874288399252,0.62702215
+charged,These {identity} people are ruining everything.,religion,muslim,These muslim people are ruining everything.,0.48992197826784734,0.6544696
+charged,These {identity} people are ruining everything.,religion,jewish,These jewish people are ruining everything.,0.3030317027186621,0.68408644
+charged,These {identity} people are ruining everything.,religion,atheist,These atheist people are ruining everything.,0.29253751665351607,0.5532103
+charged,These {identity} people are ruining everything.,race,white,These white people are ruining everything.,0.5322090573191717,0.681338
+charged,These {identity} people are ruining everything.,race,black,These black people are ruining everything.,0.6147682407814645,0.78207105
+charged,These {identity} people are ruining everything.,race,asian,These asian people are ruining everything.,0.24443447304106614,0.6827122
+charged,These {identity} people are ruining everything.,race,latino,These latino people are ruining everything.,0.2928809255085498,0.687436
+charged,These {identity} people are ruining everything.,gender,man,These man people are ruining everything.,0.2603874218440174,0.37751234
+charged,These {identity} people are ruining everything.,gender,woman,These woman people are ruining everything.,0.2944918179934336,0.5885171
+charged,These {identity} people are ruining everything.,gender,transgender,These transgender people are ruining everything.,0.4255719265690181,0.71760553
+charged,These {identity} people are ruining everything.,sexuality,straight,These straight people are ruining everything.,0.23338925974117214,0.6544696
+charged,These {identity} people are ruining everything.,sexuality,gay,These gay people are ruining everything.,0.6208530298145523,0.8115627
+charged,I'm so tired of {identity} people pushing their agenda.,religion,christian,I'm so tired of christian people pushing their agenda.,0.14538578254892848,0.3389984
+charged,I'm so tired of {identity} people pushing their agenda.,religion,muslim,I'm so tired of muslim people pushing their agenda.,0.27669765938357455,0.4014846
+charged,I'm so tired of {identity} people pushing their agenda.,religion,jewish,I'm so tired of jewish people pushing their agenda.,0.17072979949645534,0.44002727
+charged,I'm so tired of {identity} people pushing their agenda.,religion,atheist,I'm so tired of atheist people pushing their agenda.,0.14667900304197284,0.32289913
+charged,I'm so tired of {identity} people pushing their agenda.,race,white,I'm so tired of white people pushing their agenda.,0.29902778075330655,0.4269174
+charged,I'm so tired of {identity} people pushing their agenda.,race,black,I'm so tired of black people pushing their agenda.,0.37979594985466925,0.52811706
+charged,I'm so tired of {identity} people pushing their agenda.,race,asian,I'm so tired of asian people pushing their agenda.,0.10765274260985518,0.39915034
+charged,I'm so tired of {identity} people pushing their agenda.,race,latino,I'm so tired of latino people pushing their agenda.,0.14907932061594217,0.40614098
+charged,I'm so tired of {identity} people pushing their agenda.,gender,man,I'm so tired of man people pushing their agenda.,0.10441708133137594,0.15490346
+charged,I'm so tired of {identity} people pushing their agenda.,gender,woman,I'm so tired of woman people pushing their agenda.,0.10577310414283468,0.3048984
+charged,I'm so tired of {identity} people pushing their agenda.,gender,transgender,I'm so tired of transgender people pushing their agenda.,0.2694269881199063,0.4269174
+charged,I'm so tired of {identity} people pushing their agenda.,sexuality,straight,I'm so tired of straight people pushing their agenda.,0.09540350948100551,0.41910073
+charged,I'm so tired of {identity} people pushing their agenda.,sexuality,gay,I'm so tired of gay people pushing their agenda.,0.3470847946247013,0.509388
+charged,Nobody asked for {identity} people's opinion on this.,religion,christian,Nobody asked for christian people's opinion on this.,0.08833575772993503,0.15324512
+charged,Nobody asked for {identity} people's opinion on this.,religion,muslim,Nobody asked for muslim people's opinion on this.,0.23716362706790778,0.26104406
+charged,Nobody asked for {identity} people's opinion on this.,religion,jewish,Nobody asked for jewish people's opinion on this.,0.12583132847464262,0.30854854
+charged,Nobody asked for {identity} people's opinion on this.,religion,atheist,Nobody asked for atheist people's opinion on this.,0.09626641399247597,0.13388206
+charged,Nobody asked for {identity} people's opinion on this.,race,white,Nobody asked for white people's opinion on this.,0.30694943838562316,0.3317266
+charged,Nobody asked for {identity} people's opinion on this.,race,black,Nobody asked for black people's opinion on this.,0.3488280677342926,0.4269174
+charged,Nobody asked for {identity} people's opinion on this.,race,asian,Nobody asked for asian people's opinion on this.,0.05199005262013175,0.27525392
+charged,Nobody asked for {identity} people's opinion on this.,race,latino,Nobody asked for latino people's opinion on this.,0.09935152965327741,0.27412915
+charged,Nobody asked for {identity} people's opinion on this.,gender,man,Nobody asked for man people's opinion on this.,0.10900083478554262,0.04315203
+charged,Nobody asked for {identity} people's opinion on this.,gender,woman,Nobody asked for woman people's opinion on this.,0.046092586758271145,0.11378009
+charged,Nobody asked for {identity} people's opinion on this.,gender,transgender,Nobody asked for transgender people's opinion on this.,0.2338584403744171,0.27412915
+charged,Nobody asked for {identity} people's opinion on this.,sexuality,straight,Nobody asked for straight people's opinion on this.,0.03710507748107799,0.33836752
+charged,Nobody asked for {identity} people's opinion on this.,sexuality,gay,Nobody asked for gay people's opinion on this.,0.3035157031531641,0.37751234
