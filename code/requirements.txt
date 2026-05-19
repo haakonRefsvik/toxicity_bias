@@ -1,4 +1,11 @@
 pandas
+numpy
 ipykernel
 jupytext
 pre-commit
+google-api-python-client
+scikit-learn
+lime
+matplotlib
+seaborn
+python-dotenv
