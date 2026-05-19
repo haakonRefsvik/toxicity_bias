@@ -284,9 +284,11 @@ def save_counterfactuals(rows: List[Dict[str, Any]], output_file: str) -> None:
             counterfactual = generate_counterfactual(comment, mentioned_col)
             
             if counterfactual != comment:  # Only save if different
+                # Determine what we swapped TO
+                swap_to_col = get_swap_target(mentioned_col)
                 out_row = {
                     'id': row_id,
-                    'variant_id': f'swap_{mentioned_col}',
+                    'variant_id': f'swap_to_{swap_to_col}',
                     'variant_text': counterfactual,
                     'is_original': 'false',
                     'original_toxicity': row.get('toxicity', ''),
